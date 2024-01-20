@@ -1,10 +1,8 @@
 
-
 header{
     text-align: center;
     padding: 20px;
     font-size: 30px;
-    box-shadow: 2px 2px #1e1306;
 }
 
 
@@ -14,12 +12,12 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     font-size: 22;
-    }
+}
 
-    a {
-        color: #684a28;
-        text-decoration:none;
-      }
+a {
+    color: #684a28;
+    text-decoration:none;
+}
 
    
 
@@ -30,22 +28,23 @@ nav ul {
     height: 300px;
     align-items: end;
     box-shadow:4px 4px #382d05;
-   }
+}
 
-   #section1,
-   #section2,
-   #section3 {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 60vh;
-       font-size: 22;
-       text-align: center;
-   }
-
-
-   
-   
+#section1,
+#section2,
+#section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    font-size: 22;
+    text-align: center;
+    gap: 30px;
+    border: 2px solid;
+    padding: 20px;
+    margin: 30px;
+}
+  
 
 #section1 {
     background-color: #E9FFC2;
@@ -79,21 +78,21 @@ nav ul {
     align-items: center;
     width: 200px;
     height: 320px;
-    background-color: #E9FFC2;
-    border: 1px solid #ccc;
+    background-color:#E9FFC2;
+    border: 1px solid #352d0b;
     border-radius: 5px;
-    box-shadow: 4px 4px #0d5a07;
+    box-shadow: 2px 2px #684a28;;
 }
 
 .card img {
     width: 100%;
     height: 180px;
-    }
+ }
+
 
 .card p {
     font-size: 22;
 }
-
 
 
 h2{
@@ -101,14 +100,14 @@ h2{
 }
 
 
-    body{
-        font-family: Tahoma, sans-serif;
-        color: #684a28;
-        background-color: #FFF8E3;
-    }
+body{
+    font-family: Tahoma, sans-serif;
+    color: #684a28;
+    background-color: #FFF8E3;
+}
 
 .footer {
-    background-image: url('c:/Users/User/Desktop/לימודים/שנה ג/צד לקוח/HomaAssignment1/images/backgroundPic.jpeg');
+    background-image: url('images/backfooter.png');
     background-position: center;
     background-size: cover;
     padding: 20px;
